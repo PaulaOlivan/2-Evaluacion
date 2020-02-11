@@ -1,13 +1,13 @@
 #include<iostream>
 
 int main(){
-    //Definición de variables
+    //DefiniciÃ³n de variables
     char salir;
     char respuesta;
     std:: cout <<"Hola mundo, es mi primer programa\n";
     std::cout <<"Eres guapo? (s/n)";
     std::cin >> respuesta; 
-    if(respuesta== 's' || 'S'){
+    if(respuesta == 's' || respuesta == 'S'){
          std::cout <<"Hola guapon";
     }
     else{
