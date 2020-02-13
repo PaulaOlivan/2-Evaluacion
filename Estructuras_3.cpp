@@ -9,21 +9,14 @@
 using namespace std;
 
 int main (){
-    char salir;
-    char amigo_misamigos[3];
+    int salir;
+    amigo misamigos[3];
     
-    struct amigo[1]{ // se define automaticamente
-           int n_amigo1;
-           float dinero1;
+    struct amigo{ // se define automaticamente
+           int n_amigo;
+           float dinero;
            };
-    struct amigo[2]{ // se define automaticamente
-           int n_amigo2;
-           float dinero2;
-           };
-    struct amigo[3]{ // se define automaticamente
-           int n_amigo3;
-           float dinero3;
-           };
+    
     amigo imaginario; //guardo memoria para un dato de tipo amigo
     cout << "Dime tu numero: ";
     cin >> imaginario.n_amigo1; //guardar en el campo n_amigo el valor de su numero
