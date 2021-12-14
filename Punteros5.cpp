@@ -1,5 +1,5 @@
 //Programa que se encarga de ordenar las palabras segun el numero de letras que tiene
-//Inspirado por Cristina Marzo
+//Inspirado por el codigo original de Cristina Marzo
 
 #include<iostream>
 #include<fpaula.h>
