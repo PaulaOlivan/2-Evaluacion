@@ -1,12 +1,4 @@
 /*
-programar en c es una basura
-quiero morirme
-X2
-:)))))))))))))))
-X_X
-:ª((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
-UwU
-
 Estructuras:
             struct amigo{ //guarda en una estructura DOS datos independientes ya que uno es un entero y otro un decimal. Los guarda juntos
                    int n_amigo; // Int y float ocupan bites distintos por eso se necesita clasificar
@@ -35,7 +27,7 @@ int main (){
     cin >> imaginario.dinero;
     
     //Recupero los datos de mi amigo imaginario
-    cout << "\nMi amigo imaginario es mi amigo numero " << imaginario.n_amigo; //añadir variable que elija la moneda que quieras
+    cout << "\nMi amigo imaginario es mi amigo numero " << imaginario.n_amigo; //aÃ±adir variable que elija la moneda que quieras
     cout << "\nMi amigo imaginario tiene " << imaginario.dinero << " euros"; 
     
     cin >> salir;
